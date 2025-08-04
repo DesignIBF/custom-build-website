@@ -1,0 +1,270 @@
+/*****************************************/
+/* Font stylings                         */
+/*****************************************/
+:root {
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --line-height-120: 1.2;
+  --line-height-150: 1.5;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  color: var(--IBF-green);
+}
+
+/*****************************************/
+/* Head text styling */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-120);
+  font-variation-settings: "wdth" 75;
+  transition: 0.3s;
+}
+
+/* Head text size styling */
+h1,
+h2.large {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h2.white,
+h3.white {
+  color: white;
+}
+
+h4 {
+  font-size: 22px;
+  color: var(--IBF-pink);
+}
+
+h4.small {
+  font-size: 18px;
+}
+
+/* Head text size styling */
+/*****************************************/
+
+.intro {
+  font-size: 20px;
+  font-family: "Noto Serif", serif;
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-150);
+}
+
+/*****************************************/
+/* p = Body */
+p /* Medium */ {
+  line-height: var(--line-height-150);
+  font-weight: var(--font-weight-medium);
+  transition: 0.3s;
+}
+
+p.regular {
+  font-weight: var(--font-weight-regular);
+}
+
+p.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+p.italic {
+  font-weight: var(--font-weight-regular);
+  font-style: italic;
+}
+
+/* p = Body small */
+p.small {
+  font-size: 16px;
+}
+
+p.extraSmall {
+  font-size: 14px;
+}
+
+/*****************************************/
+
+p.description {
+  font-size: 14px;
+  color: var(--IBF-dark-grey);
+  font-weight: var(--font-weight-medium);
+}
+
+p.description.green {
+  color: var(--IBF-green);
+}
+
+/*****************************************/
+
+figcaption {
+  font-size: 12px;
+  color: var(--IBF-dark-grey);
+  font-weight: var(--font-weight-regular);
+}
+
+/*****************************************/
+/* Link styling                          */
+/*****************************************/
+a {
+  text-decoration: none;
+  transition: 0.1s ease;
+  width: fit-content;
+  color: var(--IBF-green);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a.primary {
+  color: var(--IBF-green);
+  text-decoration: underline;
+}
+
+a.primary.no-underline {
+  text-decoration: none;
+}
+
+a.primary:hover {
+  color: var(--IBF-pink);
+}
+
+a.secondary {
+  color: var(--IBF-pink);
+  text-decoration: underline;
+}
+
+a.secondary:hover {
+  color: var(--IBF-dark-pink);
+}
+
+/* a:hover p {
+  color: var(--IBF-medium-green);
+}
+
+a:hover .product-title {
+  color: var(--IBF-medium-green);
+}
+
+a:hover .card-tag,
+a:hover .card-color {
+  color: var(--IBF-dark-grey);
+} */
+
+a path {
+  transition: 0.3s;
+}
+
+#more:hover p {
+  color: var(--IBF-pink);
+}
+
+#more:hover path {
+  stroke: var(--IBF-pink);
+}
+
+/*****************************************/
+
+/*****************************************/
+
+blockquote {
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 32px;
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-120);
+  align-self: center;
+}
+
+blockquote.small {
+  font-size: 28px;
+  color: var(--IBF-pink);
+}
+
+.product-title {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-medium);
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  transition: 0.3s;
+  font-size: 22px;
+  line-height: var(--line-height-120);
+}
+
+/*****************************************/
+/* Fonts on Mobile                       */
+/*****************************************/
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h2.large {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h4.small {
+    font-size: 16px;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+
+  p.description {
+    font-size: 12px;
+  }
+
+  p.small {
+    font-size: 12px;
+  }
+
+  blockquote {
+    font-size: 22px;
+  }
+
+  blockquote.small {
+    font-size: 20px;
+  }
+
+  p.product-title {
+    font-size: 18px;
+  }
+}
+
+/*****************************************/
+/* Cards                                 */
+/*****************************************/
+
+.card-tag,
+.card-color {
+  color: var(--IBF-dark-grey);
+}

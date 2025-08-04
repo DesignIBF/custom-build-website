@@ -1,0 +1,34 @@
+{
+  "backgroundColor": "#f8f9fa",
+  "blocks": [
+    {
+      "type": "container",
+      "class": "container flex-column gap-1",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Fresh Flowers Shipped to All 50 States",
+          "class": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Wherever you are in the U.S., you can count on iBuyFlowers for fast, fresh flower delivery.",
+          "class": "intro"
+        },
+        {
+          "type": "paragraph",
+          "text": "From California to New York, and from Texas to Florida, iBuyFlowers makes it simple to order flowers online and have them shipped directly to your doorstep or business. We work directly with growers to ensure your flowers arrive vibrant and long-lasting, no matter your location. Explore our state-by-state delivery options and bring the freshness of our flowers to your customers, weddings, or home, wherever you are.",
+          "class": "regular"
+        },
+        {
+          "type": "button",
+          "text": "About iBuyFlowers",
+          "class": "btn btn-tertiary",
+          "href": "/about",
+          "visible": "false"
+        }
+      ]
+    }
+  ]
+}

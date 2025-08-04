@@ -1,0 +1,75 @@
+#farmBanner,
+#banner {
+  overflow: hidden;
+  height: 100%;
+}
+
+#banner h2,
+#banner > div > div > h2 {
+  max-height: 80px;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+#farmBanner:hover > img,
+#banner:hover > img {
+  transform: scale(1.1);
+}
+
+#banner .content-container {
+  padding: 2em 1em;
+}
+
+#farmBanner .content-container .text-container,
+#banner .content-container .text-container {
+  padding: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+#farmBanner:hover .btn,
+#banner:hover .btn {
+  color: var(--IBF-white);
+  background: var(--IBF-pink);
+}
+
+#farmBanner {
+  aspect-ratio: 13/6;
+}
+
+#farmBanner > div > div {
+  flex-direction: row;
+}
+
+.flag {
+  width: 100%;
+  max-width: 34px;
+  height: auto !important;
+  z-index: 10 !important;
+  position: relative;
+}
+
+.grid-banners {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* gap: 1.5em; */
+}
+
+@media (max-width: 1000px) {
+  .grid-banners {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* gap: 1em; */
+  }
+}
+
+@media (max-width: 560px) {
+  .grid-banners {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    /* gap: 0.5em; */
+  }
+}

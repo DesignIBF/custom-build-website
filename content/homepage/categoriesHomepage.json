@@ -1,0 +1,40 @@
+{
+  "title": "Explore Our Flower Categories",
+  "backgroundGradient": "",
+  "button": {
+    "text": "View All Categories",
+    "link": "/categories.html"
+  },
+  "categories": [
+    {
+      "name": "Anemones",
+      "image": "assets/images/categories/anemones.png",
+      "link": "#"
+    },
+    {
+      "name": "Garden Roses",
+      "image": "assets/images/categories/garden_roses.png",
+      "link": "#"
+    },
+    {
+      "name": "Hydrangeas",
+      "image": "assets/images/categories/hydrangeas.png",
+      "link": "#"
+    },
+    {
+      "name": "Ranunculus",
+      "image": "assets/images/categories/ranunculus.png",
+      "link": "#"
+    },
+    {
+      "name": "Roses",
+      "image": "assets/images/categories/roses.png",
+      "link": "#"
+    },
+    {
+      "name": "Spray Roses",
+      "image": "assets/images/categories/spray_roses.png",
+      "link": "#"
+    }
+  ]
+}

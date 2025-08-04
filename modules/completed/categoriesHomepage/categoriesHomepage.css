@@ -1,0 +1,35 @@
+/* Categories Homepage Component Styles */
+
+/* Import category card styles */
+@import url("../categoryCard/categoryCard.css");
+
+/* Button visibility controls */
+.desktop-btn {
+  display: block;
+}
+
+.mobile-btn {
+  display: none;
+}
+
+/* Mobile responsive behavior */
+@media (max-width: 768px) {
+  .desktop-btn {
+    display: none;
+  }
+
+  .mobile-btn {
+    display: block;
+  }
+}
+
+/* Categories homepage specific responsive behavior */
+@media (max-width: 1124px) {
+  #categoriesLandingpage > div,
+  #faqSection > div {
+    flex-direction: column;
+  }
+  #categoriesLandingpage > div > div.min-2 {
+    max-width: var(--col-5);
+  }
+}

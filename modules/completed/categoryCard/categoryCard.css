@@ -1,0 +1,41 @@
+/* Category Card Component Styles */
+
+/* Category card hover effects */
+a.categoryCard:hover p.small,
+a.categoryCard:hover p.extraSmall {
+  text-decoration: underline;
+}
+
+/* Image container styles for category cards */
+.categories-card .img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 100% !important;
+  width: 100%;
+}
+
+/* Ensure the image fits inside the container */
+.categories-card .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Scale up the image on hover */
+.categories-card a:hover .img-container img {
+  transform: scale(1.1);
+}
+
+/* Round image styling */
+.categories-card .img-round {
+  border-radius: 100%;
+  width: 100%;
+}
+
+/* Responsive behavior */
+@media (max-width: 1124px) {
+  .categories-card {
+    min-width: var(--col-1-25);
+  }
+}

@@ -1,0 +1,42 @@
+/* Base styles - Reset and fundamental element styling */
+
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HTML & Body */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: pink;
+  overflow-x: hidden;
+}
+
+/* Main Layout */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2em; */
+  /* position: absolute; */
+  top: 200px;
+  z-index: -10;
+}
+
+main > div {
+  background-color: white;
+}
+
+/* Header */
+header {
+  text-align: center;
+  width: 100%;
+  padding: 2em;
+  background: #4caf50;
+  color: white;
+}

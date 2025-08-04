@@ -1,0 +1,28 @@
+/* Article Section Component Styles */
+
+/* 
+ * This component relies on existing global styles from css/styles.css:
+ * - ul list styling with custom bullets (#articleSection ul li::before)
+ * - img-hd, img-round, img-square classes for images
+ * - General typography and spacing utilities
+ * - Container and flex utilities
+ */
+
+/* Component-specific styles only */
+.article-image {
+  margin-top: 2rem;
+}
+
+.image-caption {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .article-image {
+    margin-top: 1rem;
+  }
+}

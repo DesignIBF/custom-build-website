@@ -1,0 +1,81 @@
+{
+  "title": "Explore By State",
+  "button": {
+    "text": "Explore All States",
+    "href": "/blog"
+  },
+  "cards": [
+    {
+      "title": "Texas",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/tx.png",
+      "link": "/blog/flower-care-tips",
+      "imageAlt": "Fresh flowers in a vase"
+    },
+    {
+      "title": "Tennessee",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/tn.png",
+      "link": "/blog/spring-wedding-trends",
+      "imageAlt": "Spring wedding bouquet"
+    },
+    {
+      "title": "Missouri",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/mi.png",
+      "link": "/blog/centerpiece-guide",
+      "imageAlt": "Elegant table centerpiece"
+    },
+    {
+      "title": "Oregon",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/or.png",
+      "link": "/blog/seasonal-flowers",
+      "imageAlt": "Seasonal flower arrangement"
+    },
+    {
+      "title": "South Carolina",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/sc.png",
+      "link": "/blog/seasonal-flowers",
+      "imageAlt": "Seasonal flower arrangement"
+    },
+    {
+      "title": "Georgia",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/ga.png",
+      "link": "/blog/seasonal-flowers",
+      "imageAlt": "Seasonal flower arrangement"
+    },
+    {
+      "title": "Washington",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/wa.png",
+      "link": "/blog/seasonal-flowers",
+      "imageAlt": "Seasonal flower arrangement"
+    },
+    {
+      "title": "Wisconsin",
+      "description": "",
+      "tag": "State",
+      "date": "",
+      "image": "assets/images/states/wi.png",
+      "link": "/blog/seasonal-flowers",
+      "imageAlt": "Seasonal flower arrangement"
+    }
+  ]
+}

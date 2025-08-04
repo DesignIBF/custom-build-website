@@ -1,0 +1,54 @@
+/* Spotlight Banner Component Styles */
+
+/* Section styling */
+.spotlight-banner {
+  padding: 4rem 2rem;
+  min-height: 600px;
+  position: relative;
+}
+
+/* Background image styling */
+.spotlight-banner.bg-image {
+  background-size: cover;
+}
+
+/* White text styling - only on desktop when text is over image */
+@media (min-width: 768px) {
+  .spotlight-banner.white-text h1,
+  .spotlight-banner.white-text h4,
+  .spotlight-banner.white-text p {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Gradient overlay - only on desktop when text is over image */
+@media (min-width: 768px) {
+  .spotlight-banner.gradient-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 75%
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .spotlight-banner.gradient-overlay .container {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+  .spotlight-banner {
+    min-height: 0;
+  }
+}

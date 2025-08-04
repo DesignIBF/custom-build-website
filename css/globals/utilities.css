@@ -1,0 +1,299 @@
+/* Utility Classes - Reusable helper classes */
+
+/*****************************************/
+/* Flexbox Utilities                     */
+/*****************************************/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.a-i-start {
+  align-items: start;
+}
+
+.a-i-end {
+  align-items: end;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+.a-i-stretch {
+  align-items: stretch;
+}
+
+.j-c-start {
+  justify-content: start;
+}
+
+.j-c-end {
+  justify-content: end;
+}
+
+.j-c-center {
+  justify-content: center;
+}
+
+/*****************************************/
+/* Text Alignment                        */
+/*****************************************/
+.t-left {
+  text-align: left;
+}
+
+.t-center {
+  text-align: center;
+}
+
+/*****************************************/
+/* Grid Utilities                        */
+/*****************************************/
+.grid-2 {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+}
+
+.grid-lists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1020px) {
+  .grid-lists {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 660px) {
+  .grid-lists {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*****************************************/
+/* Width Utilities - Max Width          */
+/*****************************************/
+.max-12 {
+  max-width: var(--col-12);
+}
+.max-11 {
+  max-width: var(--col-11);
+}
+.max-10 {
+  max-width: var(--col-10);
+}
+.max-9 {
+  max-width: var(--col-9);
+}
+.max-8 {
+  max-width: var(--col-8);
+}
+.max-7 {
+  max-width: var(--col-7);
+}
+.max-6 {
+  max-width: var(--col-6);
+}
+.max-5 {
+  max-width: var(--col-5);
+}
+.max-4 {
+  max-width: var(--col-4);
+}
+.max-3 {
+  max-width: var(--col-3);
+}
+.max-2 {
+  max-width: var(--col-2);
+}
+.max-1 {
+  max-width: var(--col-1);
+}
+
+/*****************************************/
+/* Width Utilities - Min Width          */
+/*****************************************/
+.min-12 {
+  min-width: var(--col-12);
+}
+.min-11 {
+  min-width: var(--col-11);
+}
+.min-10 {
+  min-width: var(--col-10);
+}
+.min-9 {
+  min-width: var(--col-9);
+}
+.min-8 {
+  min-width: var(--col-8);
+}
+.min-7 {
+  min-width: var(--col-7);
+}
+.min-6 {
+  min-width: var(--col-6);
+}
+.min-5 {
+  min-width: var(--col-5);
+}
+.min-4 {
+  min-width: var(--col-4);
+}
+.min-3 {
+  min-width: var(--col-3);
+}
+.min-2 {
+  min-width: var(--col-2);
+}
+.min-1-25 {
+  min-width: var(--col-1-25);
+}
+.min-1 {
+  min-width: var(--col-1);
+}
+
+.min-category-card {
+  min-width: 119px;
+}
+
+/*****************************************/
+/* Spacing Utilities                     */
+/*****************************************/
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-2-5 {
+  gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-15 {
+  gap: 1.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 0.5rem;
+}
+
+.gap-25 {
+  gap: 0.25rem;
+}
+
+.gap-24px {
+  gap: 24px;
+}
+
+.padding-5em {
+  padding: 0.5rem;
+}
+
+.padding-1em {
+  padding: 1rem;
+}
+
+.padding-1_5em {
+  padding: 1.5rem;
+}
+
+.padding-2em {
+  padding: 2rem;
+}
+
+/*****************************************/
+/* Layout Utilities                      */
+/*****************************************/
+.height {
+  height: 100%;
+}
+
+.fit-height {
+  height: fit-content;
+}
+
+.relative {
+  position: relative;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/*****************************************/
+/* Order Utilities                       */
+/*****************************************/
+.order-1 {
+  order: -1;
+}
+
+.order-2 {
+  order: -2;
+}
+
+.order-1-mobile {
+  order: 0;
+}
+
+@media (max-width: 767px) {
+  .spotlightBannerRegularImage > div {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .order-1-mobile {
+    order: -1;
+  }
+}
+
+/*****************************************/
+/* Border Radius Utilities              */
+/*****************************************/
+.border-4px {
+  border-radius: 0.25rem;
+}
+
+.border-8px {
+  border-radius: 0.5rem;
+}
+
+.border-16px {
+  border-radius: 1rem;
+}
+
+.border-100 {
+  border-radius: 100%;
+}
+
+/*****************************************/
+/* Z-Index Utilities                     */
+/*****************************************/
+.z-10 {
+  z-index: 10;
+}

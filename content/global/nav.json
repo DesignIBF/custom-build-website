@@ -1,0 +1,19 @@
+{
+  "brand": "iBuyFlowers",
+  "taglines": [
+    "farm-fresh flowers directly from 100+ farms",
+    "Up to 10 days fresher"
+  ],
+  "logo": "assets/images/logo3.svg",
+  "menuItems": [
+    { "text": "Our products", "link": "/products.html" },
+    { "text": "States", "link": "/states.html" },
+    { "text": "Farms", "link": "/farms.html" },
+    { "text": "Blogs", "link": "/blogs.html" },
+    { "text": "Education", "link": "/education.html", "hasDropdown": true },
+    { "text": "About us", "link": "/about.html" },
+    { "text": "Contact us", "link": "/contact.html" }
+  ],
+  "searchPlaceholder": "Search bar 🔍",
+  "signInText": "Sign in"
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Our Trusted Farm Partners",
+  "logos": [
+    {
+      "src": "assets/images/logos/1.png",
+      "alt": "California Grown - Supporting Local Agriculture",
+      "link": "https://californiagrown.org/",
+      "name": "California Grown"
+    },
+    {
+      "src": "assets/images/logos/2.png",
+      "alt": "Rainforest Alliance - Sustainable Agriculture Certification",
+      "link": "https://www.rainforest-alliance.org/",
+      "name": "Rainforest Alliance"
+    },
+    {
+      "src": "assets/images/logos/3.png",
+      "alt": "Florverde - Sustainable Floriculture Certification",
+      "link": "https://www.florverde.org/en/home/",
+      "name": "Florverde"
+    },
+    {
+      "src": "assets/images/logos/4.png",
+      "alt": "Flor Ecuador - Ecuadorian Flower Export Association",
+      "link": "https://expoflores.com/",
+      "name": "Flor Ecuador"
+    },
+    {
+      "src": "assets/images/logos/5.png",
+      "alt": "GLOBALG.A.P. - Good Agricultural Practices Certification",
+      "link": "https://www.globalgap.org/",
+      "name": "GLOBALG.A.P."
+    },
+    {
+      "src": "assets/images/logos/6.png",
+      "alt": "Asocolflores - Colombian Association of Flower Exporters",
+      "link": "https://asocolflores.org/",
+      "name": "Asocolflores"
+    },
+    {
+      "src": "assets/images/logos/7.png",
+      "alt": "SCS Global Services - Sustainability Certification",
+      "link": "https://nl.scsglobalservices.com/",
+      "name": "SCS Global Services"
+    },
+    {
+      "src": "assets/images/logos/8.png",
+      "alt": "Fairtrade - Ethical Trade Certification",
+      "link": "https://www.fairtrade.net/us-en.html",
+      "name": "Fairtrade"
+    }
+  ]
+}

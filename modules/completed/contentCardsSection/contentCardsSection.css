@@ -1,0 +1,29 @@
+/* Content Cards Section Component Styles */
+
+/* Button visibility controls */
+.content-cards-desktop-btn {
+  display: block;
+}
+
+.content-cards-mobile-btn {
+  display: none;
+}
+
+/* Content cards row layout */
+.content-cards-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Mobile responsive behavior */
+@media (max-width: 768px) {
+  .content-cards-desktop-btn {
+    display: none;
+  }
+
+  .content-cards-mobile-btn {
+    display: block;
+  }
+}

@@ -1,0 +1,132 @@
+/*****************************************/
+/* Button stylings                       */
+/*****************************************/
+.btn {
+  font: inherit;
+  padding: 0.8em 1.5em;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s ease;
+  z-index: 10;
+  width: auto;
+  width: fit-content;
+  white-space: nowrap;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/*****************************************/
+
+.btn-primary {
+  color: var(--IBF-white);
+  background: var(--IBF-pink);
+}
+.btn-primary:hover {
+  color: var(--IBF-white);
+  background: var(--IBF-dark-pink);
+}
+
+/*****************************************/
+
+.btn-secondary {
+  color: var(--IBF-pink);
+  background: none;
+  border: 1px solid var(--IBF-pink);
+}
+.btn-secondary:hover {
+  color: var(--IBF-white);
+  background: var(--IBF-pink);
+}
+
+/*****************************************/
+
+.btn-tertiary {
+  color: var(--IBF-green);
+  background: none;
+  border: 1px solid var(--IBF-green);
+}
+.btn-tertiary:hover {
+  color: var(--IBF-white);
+  background: var(--IBF-green);
+}
+
+/*****************************************/
+
+.btn-quaternary {
+  color: var(--IBF-white);
+  background: none;
+  border: 1px solid var(--IBF-white);
+}
+.btn-quaternary:hover {
+  color: var(--IBF-green);
+  background: var(--IBF-white);
+}
+
+/*****************************************/
+
+.btn-confirmed {
+  background-color: var(--IBF-green);
+  color: white;
+}
+
+.btn-confirmed:hover {
+  background-color: var(--IBF-soft-green);
+  color: white;
+  border: none;
+  cursor: default !important;
+}
+
+/*****************************************/
+
+.btn-footer {
+  background-color: none;
+  color: var(--IBF-green);
+  border: 1px solid var(--IBF-green);
+}
+
+.btn-footer:hover {
+  background-color: var(--IBF-green);
+  color: white;
+  border: 1px solid var(--IBF-green);
+}
+
+/*****************************************/
+
+/* Confirmed state styling */
+button.confirmed {
+  background-color: var(--IBF-medium-green);
+  color: white;
+  cursor: default;
+}
+
+button.confirmed:hover {
+  background-color: var(--IBF-medium-green);
+  color: white;
+}
+
+/*****************************************/
+/* Button moves down from the container  */
+/*****************************************/
+
+/*show button next to h2 on desktop*/
+.desktop-btn {
+  display: flex;
+}
+
+.mobile-btn {
+  display: none;
+}
+
+/*show button below section on mobile*/
+@media (max-width: 767px) {
+  .desktop-btn {
+    display: none;
+  }
+
+  .mobile-btn {
+    display: flex;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Order Flowers Online in Your State",
+  "subtitle": "Fresh Flowers Delivered Nationwide",
+  "description": "Get farm-fresh flowers delivered to your state with fast, reliable shipping from iBuyFlowers.",
+  "buttonText": "Find your state",
+  "buttonLink": "#contentCardsSection",
+  "backgroundImage": "assets/images/states/states_banner.png",
+  "backgroundPosition": "center center",
+  "imageAlt": "Under construction background",
+  "useWhiteText": true,
+  "useGradientOverlay": true
+}

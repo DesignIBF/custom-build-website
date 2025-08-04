@@ -1,0 +1,17 @@
+{
+  "subtitle": "Summer Promotion",
+  "title": "Summer of Stems",
+  "description": "Enjoy consistent weekly deliveries without the hassle or price changes.",
+  "button": {
+    "text": "Explore the Summer",
+    "href": "/farm-fresh",
+    "style": "secondary"
+  },
+  "image": {
+    "src": "assets/images/homepage/sos.png",
+    "alt": "Fresh flowers from our partner farms",
+    "link": "/farm-fresh"
+  },
+  "credits": "Photo by Farm Partners Co.",
+  "backgroundColor": "#F1F1F1"
+}

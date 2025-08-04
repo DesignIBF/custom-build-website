@@ -1,0 +1,51 @@
+{
+  "subtitle": "Something unclear?",
+  "title": "Frequently Asked Questions",
+  "description": "Find quick answers about ordering, delivery, and how iBuyFlowers makes sourcing fresh flowers easy for florists and event planners.",
+  "button": {
+    "text": "View All FAQs",
+    "href": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "How long do your flowers stay fresh?",
+      "answer": "Our fresh flowers typically last 7-10 days with proper care. We provide care instructions with every order to help you maximize their lifespan.",
+      "link": {
+        "text": "View Care Guide",
+        "href": "#"
+      }
+    },
+    {
+      "question": "What areas do you deliver to?",
+      "answer": "We deliver nationwide across the United States. Same-day delivery is available in select metropolitan areas, while standard delivery takes 1-2 business days.",
+      "link": {
+        "text": "Check Delivery Areas",
+        "href": "#"
+      }
+    },
+    {
+      "question": "Can I schedule delivery for a specific date?",
+      "answer": "Yes! You can schedule delivery up to 30 days in advance. Simply select your preferred delivery date during checkout.",
+      "link": {
+        "text": "Learn More",
+        "href": "#"
+      }
+    },
+    {
+      "question": "Do you offer custom arrangements?",
+      "answer": "Absolutely! Our expert florists can create custom arrangements for any occasion. Contact us with your specific requirements and we'll create something beautiful just for you.",
+      "link": {
+        "text": "Request Custom Order",
+        "href": "#"
+      }
+    },
+    {
+      "question": "What if I'm not satisfied with my order?",
+      "answer": "We guarantee 100% satisfaction. If you're not happy with your flowers, contact us within 24 hours and we'll make it right with a replacement or full refund.",
+      "link": {
+        "text": "View Return Policy",
+        "href": "#"
+      }
+    }
+  ]
+}

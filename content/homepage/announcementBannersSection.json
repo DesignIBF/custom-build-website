@@ -1,0 +1,31 @@
+{
+  "title": "Special Announcements",
+  "button": {
+    "text": "View All",
+    "href": "/offers"
+  },
+  "banners": [
+    {
+      "description": "Temporary Maintenance Notice",
+      "title": "Brief Pause for a Better Experience July 5 & 6",
+      "image": "assets/images/homepage/anouncement_banner_2.png",
+      "link": "/offers/holiday-special",
+      "buttonText": "Learn More",
+      "buttonStyle": "secondary",
+      "whiteText": false,
+      "showOverlay": false,
+      "objectPosition": "center right"
+    },
+    {
+      "description": "Summer Promotion",
+      "title": "Win Free Flowers For a Year!",
+      "image": "assets/images/homepage/anouncement_banner_1.png",
+      "link": "/collections/premium",
+      "buttonText": "Learn More",
+      "buttonStyle": "secondary",
+      "whiteText": false,
+      "showOverlay": false,
+      "objectPosition": "center right"
+    }
+  ]
+}

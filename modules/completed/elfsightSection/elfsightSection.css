@@ -1,0 +1,71 @@
+/* Elfsight Section Component Styles */
+
+.elfsight-container {
+  width: 100%;
+  max-width: 100%;
+  min-height: 400px; /* Ensure minimum height for loading */
+}
+
+/* Elfsight widget styling */
+.elfsight-container .elfsight-app-1bf44802-b4d4-4a2e-a2e4-37bc95fb5f74 {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 400px !important;
+}
+
+/* Ensure the widget is visible during loading */
+.elfsight-container [data-elfsight-app-lazy] {
+  min-height: 400px;
+  display: block !important;
+}
+
+/* Font overrides for Elfsight widget */
+.elfsight-container * {
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Specific Elfsight element font overrides */
+.elfsight-container .eapps-widget,
+.elfsight-container .eapps-reviews-widget,
+.elfsight-container .eapps-reviews-item,
+.elfsight-container .eapps-reviews-item-text,
+.elfsight-container .eapps-reviews-item-author,
+.elfsight-container .eapps-reviews-item-date,
+.elfsight-container .eapps-reviews-header,
+.elfsight-container .eapps-reviews-title,
+.elfsight-container [class*="eapps-"],
+.elfsight-container [class*="reviews-"],
+.elfsight-container div,
+.elfsight-container span,
+.elfsight-container p,
+.elfsight-container h1,
+.elfsight-container h2,
+.elfsight-container h3,
+.elfsight-container h4,
+.elfsight-container h5,
+.elfsight-container h6 {
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Override any iframe content fonts (if applicable) */
+.elfsight-container iframe {
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .elfsightSection {
+    padding: 1rem 0;
+  }
+
+  .elfsight-container {
+    min-height: 300px;
+  }
+
+  .elfsight-container .elfsight-app-1bf44802-b4d4-4a2e-a2e4-37bc95fb5f74 {
+    min-height: 300px !important;
+  }
+}

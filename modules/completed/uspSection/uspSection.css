@@ -1,0 +1,117 @@
+/* USP Section Component Styles */
+
+/* Section styling */
+.usp-section {
+  padding: 2rem 0;
+  background-color: var(--IBF-green);
+  color: white;
+}
+
+/* Container with conditional horizontal scroll */
+.usp-section .container.max-12 {
+  max-width: var(--col-12);
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /* Hide scrollbar for USP section */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide webkit scrollbar for USP section */
+.usp-section .container.max-12::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar when content fits on large screens */
+@media (min-width: 1320px) {
+  .usp-section .container.max-12 {
+    overflow-x: visible;
+  }
+}
+
+/* USP items layout */
+.usp-section .container.flex-row.a-i-center.j-c-center {
+  flex: 1 1 calc(25% - 18px); /* Equal width, accounting for 24px gaps */
+  min-width: 250px; /* Minimum width for readability */
+  text-align: left;
+  /* padding: 0 1rem; */
+  transition: transform 0.3s ease;
+  white-space: nowrap;
+}
+
+/* On large screens, ensure they fit perfectly */
+@media (min-width: 1320px) {
+  .usp-section .container.flex-row.a-i-center.j-c-center {
+    flex: 0 0 calc((100% - 72px) / 4); /* Exact 1/4 width minus gaps */
+    min-width: calc((100% - 72px) / 4);
+    max-width: calc((100% - 72px) / 4);
+  }
+}
+
+.usp-section .container.flex-row.a-i-center.j-c-center:hover {
+  transform: translateY(-2px);
+}
+
+/* USP icon styling */
+.usp-section img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  /* Simple approach for PNG icons - no filter needed if they're already white */
+}
+
+/* USP text styling */
+.usp-section p {
+  margin: 0;
+  color: white;
+  white-space: normal;
+}
+
+/* Title (first paragraph - bold) */
+.usp-section p.bold,
+.usp-section p:first-child {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Subtitle (second paragraph - regular) */
+.usp-section p:not(.bold):not(:first-child) {
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 0.9;
+}
+
+/* Removed dragging functionality - keeping simple */
+
+/* Simplified responsive - just horizontal scroll for smaller screens */
+@media (max-width: 1319px) {
+  .usp-section .container.max-12 {
+    padding: 0 1rem;
+    overflow-x: auto; /* Enable scroll for smaller screens */
+  }
+
+  .usp-section .container.flex-row.a-i-center.j-c-center {
+    flex: 0 0 280px;
+    min-width: 280px;
+    max-width: 280px;
+  }
+}
+
+/* Mobile specific - remove padding to prevent icon cutoff */
+@media (max-width: 767px) {
+  .usp-section .flex-row {
+    flex-direction: row !important; /* Keep horizontal on mobile */
+  }
+
+  .usp-section .container.max-12 {
+    padding: 0; /* Remove padding on mobile to prevent cutoff */
+    margin: 0 1rem; /* Add margin instead for spacing */
+  }
+}

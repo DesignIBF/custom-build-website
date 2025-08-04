@@ -1,0 +1,39 @@
+{
+  "title": "Shop by State",
+  "button": {
+    "text": "View All States",
+    "link": "/states.html"
+  },
+  "categories": [
+    {
+      "name": "Texas",
+      "image": "assets/images/homepage/tx.png",
+      "link": "/states/california"
+    },
+    {
+      "name": "Tennessee",
+      "image": "assets/images/homepage/tn.png",
+      "link": "/states/florida"
+    },
+    {
+      "name": "Missouri",
+      "image": "assets/images/homepage/mi.png",
+      "link": "/states/new-york"
+    },
+    {
+      "name": "Oregon",
+      "image": "assets/images/homepage/or.png",
+      "link": "/states/texas"
+    },
+    {
+      "name": "South Carolina",
+      "image": "assets/images/homepage/sc.png",
+      "link": "/states/washington"
+    },
+    {
+      "name": "Georgia",
+      "image": "assets/images/homepage/ga.png",
+      "link": "/states/oregon"
+    }
+  ]
+}

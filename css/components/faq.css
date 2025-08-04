@@ -1,0 +1,74 @@
+.faq-item {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--IBF-medium-grey);
+  transition: 0.3s ease;
+  padding: 1.5em;
+  gap: 0em;
+  border-radius: 0.5em;
+}
+
+.faq-item:hover {
+  border: 1px solid var(--IBF-dark-grey);
+  cursor: pointer;
+}
+
+.faq-item path,
+.faq-item h3 {
+  transition: 0.3s ease;
+}
+
+.faq-item:hover h3 {
+  color: var(--IBF-pink);
+}
+
+.faq-item:hover path {
+  stroke: var(--IBF-pink);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+
+  transition: 0.3s ease;
+}
+
+.open {
+  max-height: 100%; /* Adjust as needed */
+  transform: translateY(0); /* Moves into position smoothly */
+  gap: 0.5em;
+}
+
+.open .answer {
+  max-height: 1000px; /* Large enough to fit content */
+  transform: translateY(0);
+  transition: max-height 0.5s ease, transform 0.3s ease;
+}
+
+.faq-item svg {
+  height: 40px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+/* Rotate the SVG when the answer is open */
+.faq-item.open svg {
+  transform: rotate(-180deg);
+  transition: transform 0.3s ease;
+}
+
+/* Change arrow color when open */
+.faq-item.open path {
+  stroke: var(--IBF-pink); /* Change arrow to pink */
+  transition: stroke 0.3s ease;
+}
+
+#answer > a {
+  z-index: 10;
+  color: var(--IBF-pink);
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+
+#answer > a:hover {
+  color: var(--IBF-dark-pink);
+}

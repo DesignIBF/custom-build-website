@@ -1,0 +1,34 @@
+{
+  "backgroundColor": "#f8f9fa",
+  "blocks": [
+    {
+      "type": "container",
+      "class": "container flex-column gap-1",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "About Us",
+          "class": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "At iBuyFlowers, our mission is to revolutionize the flower supply chain by cutting out the middlemen and delivering farm-fresh flowers directly to your business.",
+          "class": "intro"
+        },
+        {
+          "type": "paragraph",
+          "text": "Since 2017, iBuyFlowers has made it possible for US florists, wedding planners, and event professionals to order wholesale flowers online directly from over 100 trusted farms worldwide. We believe in making flower shopping easy, transparent, and sustainable, so you can get the freshest roses, tulips, and seasonal blooms delivered straight from the farm to your doorstep. Join thousands of floral professionals who trust iBuyFlowers for quality flowers, flexible ordering, and exceptional service.",
+          "class": "regular"
+        },
+        {
+          "type": "button",
+          "text": "About iBuyFlowers",
+          "class": "btn btn-tertiary",
+          "href": "/about",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

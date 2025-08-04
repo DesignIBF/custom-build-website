@@ -1,0 +1,33 @@
+footer {
+  background: var(--IBF-dark-cream);
+  color: var(--IBF-green);
+}
+
+ul {
+  list-style: none;
+}
+
+footer a {
+  width: fit-content;
+}
+
+footer a:hover {
+  color: var(--IBF-pink);
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 767px) {
+  .grid-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 660px) {
+  .grid-footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

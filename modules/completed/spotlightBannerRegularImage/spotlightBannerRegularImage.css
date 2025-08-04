@@ -1,0 +1,8 @@
+.spotlightBannerRegularImage img {
+  height: 100%;
+}
+
+.aspect-ratio-container {
+  height: 100%;
+  border-radius: 8px;
+}

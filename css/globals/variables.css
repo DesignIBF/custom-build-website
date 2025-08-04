@@ -1,0 +1,35 @@
+/* CSS Custom Properties (Variables) */
+/* Brand Colors */
+:root {
+  --IBF-pink: #e01983;
+  --IBF-light-pink: #f7f0f2;
+  --IBF-extra-light-pink: #fefbfd;
+  --IBF-dark-pink: #b3166a;
+
+  --IBF-green: #0c331f;
+  --IBF-medium-green: #365c54;
+  --IBF-light-green: #13a110;
+
+  --IBF-white: white;
+  --IBF-medium-grey: #d9d9d9;
+  --IBF-grey: #f5f5f5;
+  --IBF-dark-grey: #999999;
+
+  --IBF-cream: #f8f6f5;
+  --IBF-dark-cream: #f5f0f0;
+
+  /* Grid System */
+  --col-12: 1296px;
+  --col-11: 1186px;
+  --col-10: 1076px;
+  --col-9: 966px;
+  --col-8: 856px;
+  --col-7: 746px;
+  --col-6: 636px;
+  --col-5: 526px;
+  --col-4: 416px;
+  --col-3: 306px;
+  --col-2: 196px;
+  --col-1-25: 131px;
+  --col-1: 86px;
+}

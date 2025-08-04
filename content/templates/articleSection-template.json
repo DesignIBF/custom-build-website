@@ -1,0 +1,178 @@
+{
+  "backgroundColor": "#ffffff",
+  "backgroundClass": "bg-custom",
+  "blocks": [
+    {
+      "type": "container",
+      "class": "container",
+      "blocks": [
+        { "type": "heading", "level": 1, "text": "" },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "This is an H2 Large",
+          "class": "large"
+        },
+        { "type": "heading", "level": 2, "text": "" },
+        { "type": "heading", "level": 3, "text": "" },
+        { "type": "heading", "level": 4, "text": "" },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "This is an H4 small",
+          "class": "small"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "iBuyFlowers was founded by Wilfred de Wit, son of a Dutch lily grower. When he was young, he moved to Ecuador to start his own career in flowers. It was there that he realized that the flower industry needed a change.",
+      "class": "intro"
+    },
+    {
+      "type": "container",
+      "class": "container",
+      "blocks": [
+        {
+          "type": "text",
+          "style": "bold",
+          "text": "Bold body text 700 - 18px"
+        },
+        { "type": "text", "text": "Medium body text 500 - 18px" },
+        {
+          "type": "text",
+          "style": "regular",
+          "text": "Regular body text 400 - 18px"
+        },
+        {
+          "type": "text",
+          "style": "italic",
+          "text": "Italic body text 400 - 18px"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "class": "container",
+      "blocks": [
+        {
+          "type": "text",
+          "style": "bold",
+          "size": "small",
+          "text": "Bold body small text 700 - 16px"
+        },
+        {
+          "type": "text",
+          "size": "small",
+          "text": "Medium body small text 500 - 16px"
+        },
+        {
+          "type": "text",
+          "style": "regular",
+          "size": "small",
+          "text": "Regular body small text 400 - 16px"
+        },
+        {
+          "type": "text",
+          "style": "italic",
+          "size": "small",
+          "text": "Italic body small text 400 - 16px"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "class": "container",
+      "blocks": [
+        { "type": "description", "color": "green", "text": "Description text" },
+        { "type": "description", "text": "Description text" }
+      ]
+    },
+    {
+      "type": "container",
+      "class": "container flex-column",
+      "blocks": [
+        {
+          "type": "link",
+          "style": "primary",
+          "text": "Link text",
+          "href": "#"
+        },
+        {
+          "type": "link",
+          "style": "secondary",
+          "text": "Link text",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "class": "container flex-column gap-1",
+      "blocks": [
+        {
+          "type": "button",
+          "text": "Primary Button",
+          "class": "btn btn-primary"
+        },
+        {
+          "type": "button",
+          "text": "Secondary Button",
+          "class": "btn btn-secondary"
+        },
+        {
+          "type": "link",
+          "text": "Link as Button",
+          "href": "/shop",
+          "class": "btn btn-tertiary"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        { "type": "link", "style": "primary", "text": "Link", "href": "#" },
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "list",
+      "listType": "ol",
+      "items": [
+        { "type": "link", "style": "primary", "text": "Link", "href": "#" },
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "container",
+      "class": "container flex-column gap-2 a-i-center",
+      "blocks": [
+        {
+          "type": "blockquote",
+          "text": "iBuyFlowers was founded by Wilfred de Wit, son of a Dutch lily grower. When he was young, he moved to Ecuador to start his own career in flowers. It was there that he realized that the flower industry needed a change.",
+          "author": "Description text"
+        },
+        {
+          "type": "blockquote",
+          "size": "small",
+          "text": "iBuyFlowers was founded by Wilfred de Wit, son of a Dutch lily grower. When he was young, he moved to Ecuador to start his own career in flowers. It was there that he realized that the flower industry needed a change.",
+          "author": "Description text"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "./assets/images/squares.png",
+      "alt": "Default Image",
+      "caption": "Credit text below an image",
+      "link": "#"
+    }
+  ]
+}

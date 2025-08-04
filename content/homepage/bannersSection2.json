@@ -1,0 +1,53 @@
+{
+  "title": "Flower Education",
+  "button": {
+    "text": "Explore All Education",
+    "href": "/education"
+  },
+  "banners": [
+    {
+      "description": "Learn about",
+      "title": "Flower Care",
+      "image": "assets/images/education/flower_care.png",
+      "link": "/education/flower-care",
+      "buttonText": "Read Guide",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "center"
+    },
+    {
+      "description": "Tips",
+      "title": "For Florists",
+      "image": "assets/images/education/for_florists.png",
+      "link": "/education/seasonal",
+      "buttonText": "Explore Seasons",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "center right"
+    },
+    {
+      "description": "Inspiration for",
+      "title": "Weddings and Events",
+      "image": "assets/images/education/weddings_and_events.png",
+      "link": "/education/arrangements",
+      "buttonText": "Learn More",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "center"
+    },
+    {
+      "description": "Quick Ordering with",
+      "title": "Next Day Delivery",
+      "image": "assets/images/education/next_day_delivery.png",
+      "link": "/education/arrangements",
+      "buttonText": "Learn More",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "center"
+    }
+  ]
+}

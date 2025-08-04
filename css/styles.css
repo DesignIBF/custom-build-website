@@ -1,0 +1,593 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap");
+@import url("globals/variables.css");
+@import url("globals/base.css");
+@import url("globals/utilities.css");
+@import url("globals/fonts.css");
+@import url("globals/buttons.css");
+@import url("globals/cards.css");
+@import url("globals/forms.css");
+/* @import url("components/nav.css"); */
+@import url("components/footer.css");
+/* @import url("components/faq.css"); */
+@import url("components/banners.css");
+/* @import url("components/spotlightBanner.css"); */
+/* @import url("components/uspSection.css"); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/***********************************************/
+
+/*****************************************/
+/* Nav Bar                               */
+/*****************************************/
+
+.instagram-media {
+  max-width: 306px !important; /* Enforce max width */
+  min-width: 306px !important; /* Prevent resizing */
+  width: 100% !important; /* Ensure responsiveness */
+  box-sizing: border-box !important; /* Prevent overflow */
+}
+
+/*****************************************/
+/* Grid overlay                          */
+/*****************************************/
+
+.grid-overlay {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1296px;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  opacity: 0.5;
+  visibility: hidden;
+}
+
+.grid-overlay .grid-column {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.grid-overlay .grid-column:nth-child(odd) {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+/* Show overlay when active */
+.grid-overlay.active {
+  visibility: visible;
+}
+
+/* Summary styling                       */
+/*****************************************/
+summary {
+  font-family: "Noto Serif", sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.details {
+  padding: 0em 2em 1em 2em;
+}
+
+/*****************************************/
+/* Component-specific responsive styles  */
+/*****************************************/
+@media (max-width: 950px) {
+  #uspSection > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #regular-banner-with-cards > div > div > a:nth-child(1) > div {
+    min-width: none;
+  }
+}
+
+@media (max-width: 526px) {
+  #uspSection > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+
+/*****************************************/
+/* Section                               */
+/*****************************************/
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid pink; */
+  padding: 4rem 2rem;
+}
+
+/* section h2 {
+  max-width: var(--col-5);
+} */
+
+section#faqSection,
+section#spotlightBannerWithCards {
+  padding: 4rem 2rem;
+}
+
+/*****************************************/
+/* Components ID styling                 */
+/*****************************************/
+
+/*****************************************/
+/* Containers                            */
+/*****************************************/
+
+.container {
+  width: 100%;
+  height: auto;
+  /* border: 0.01px dotted blue; */
+}
+
+/*****************************************/
+/* Scrollbar styling                     */
+/*****************************************/
+/* WebKit Browsers */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f4f4f4;
+  margin-top: 20px; /* Adds padding at the top */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--IBF-pink);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--IBF-pink);
+}
+
+/* Firefox */
+body {
+  scrollbar-color: var(--IBF-medium-grey) #f4f4f4;
+  scrollbar-width: thin;
+}
+
+/*****************************************/
+/* Form styling                          */
+/*****************************************/
+label,
+input {
+  text-align: left;
+}
+
+input {
+  padding: 0.8em 1em;
+  border-radius: 0.25em;
+  border: 1px solid var(--IBF-medium-grey);
+  font-size: 18px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(66, 88, 102, 0.1);
+}
+
+input:focus {
+  border: 1px solid gold;
+}
+
+fieldset {
+  border: none !important;
+}
+
+/*****************************************/
+/* List styling                          */
+/*****************************************/
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  position: relative;
+  padding-left: 1em;
+}
+
+#articleSection ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-size: 1em;
+}
+
+/*****************************************/
+/* IMG styling                           */
+/*****************************************/
+.img-round {
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+
+.img-square {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+
+.img-hd {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.img-icon {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  max-width: 64px;
+}
+
+/* Cards get Hover effect on image       */
+/*****************************************/
+
+/* Content card image container */
+.img-container {
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 0.25em;  */
+  width: 100%; /* Matches the card width */
+  /* aspect-ratio: 1/1; Ensures a square container */
+}
+
+/* Ensure the image fits inside the container */
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+/* Scale up the image on hover */
+a:hover .img-container img {
+  transform: scale(1.1); /* Adjust scale factor as needed */
+}
+
+.aspect-ratio-container {
+  position: relative;
+  aspect-ratio: 16/9;
+  width: 100%;
+  overflow: hidden; /* Ensures the image does not overflow the container */
+}
+
+.aspect-ratio-container img {
+  width: 100%;
+  height: 100%;
+  object-position: center center;
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+/*****************************************/
+/* Video styling                         */
+/*****************************************/
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 0.5em;
+}
+
+/*****************************************/
+/* Backgrounds                           */
+/*****************************************/
+.bg-green {
+  background: var(--IBF-medium-green);
+}
+
+.bg-pink {
+  background: var(--IBF-light-pink);
+}
+
+.bg-cream {
+  background: var(--IBF-cream);
+}
+
+.bg-dark-cream {
+  background: var(--IBF-dark-cream);
+}
+
+.bg-light-pink {
+  background: var(--IBF-light-pink);
+}
+
+.bg-extra-light-pink {
+  background: var(--IBF-extra-light-pink);
+}
+
+.bg-medium-grey {
+  background: var(--IBF-medium-grey);
+}
+
+.bg-image {
+  background: url(../assets/images/squares.png) center / cover;
+  height: auto;
+  width: auto;
+}
+
+.bg-image-perm {
+  background: url(../assets/images/squares.png) center / cover;
+  height: auto;
+  width: auto;
+}
+
+.banner-bg-image {
+  background: url(../assets/images/squares.png) center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-color: #ece8e4;
+  border: none;
+  transition: background-size 0.3s ease;
+}
+
+.banner-bg-image:hover {
+  background-size: auto 110%;
+}
+
+.farm-banner-bg-image {
+  background: url(../assets/images/squaresDark.png) center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-color: #ece8e4;
+  border: none;
+  transition: background-size 0.3s ease;
+}
+
+.farm-banner-bg-image:hover {
+  background-size: auto 110%;
+}
+
+.hidden-image {
+  display: none;
+  border-radius: 0.5em;
+}
+
+.review-stars {
+  width: 25%;
+}
+
+/*****************************************/
+/* ID section Styling per module         */
+/*****************************************/
+
+#rich-text-with-accordion summary,
+#rich-text-with-accordion p,
+#rich-text-reviews p,
+#rich-text-with-reviews p,
+#rich-text-reviews h2,
+#sign-up-form h2,
+#usps p {
+  text-align: center;
+}
+
+#uspSection img {
+  max-width: 48px;
+}
+
+/*****************************************/
+/* Clean-up this mess                    */
+/*****************************************/
+
+summary::marker {
+  margin-right: auto;
+}
+
+.content-card > img {
+  border-radius: 0.25rem;
+}
+
+/*****************************************/
+/* Show and hide things on mobile and on desktop */
+
+#show {
+  display: flex;
+}
+
+#hide {
+  display: none;
+}
+
+/*****************************************/
+/* Show and hide More li items in the list section */
+#more /* the button itself */ {
+  padding-top: 0.5em;
+}
+
+.rotated {
+  transform: rotate(-180deg);
+  transition: transform 0.3s ease;
+}
+
+.hidden-li {
+  height: 160px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+#listsSection .open {
+  height: 330px;
+  display: flex;
+  transition: 0.3s ease;
+}
+
+/*****************************************/
+
+.side-scroll,
+.side-scroll-grid {
+  /* flex-direction: row !important; */
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  margin: 0em -2em;
+  padding: 0 2em;
+  width: 100vw;
+}
+
+.side-scroll.small {
+  max-width: calc(var(--col-10) + 4.5rem);
+
+  /* max-width: var(--col-10); */
+}
+
+@media (max-width: 920px) {
+  #spotlightBannerWithCards > div > div.flex-column.gap-5.j-c-end {
+    display: none;
+  }
+}
+
+/* Desktop view */
+
+@media (max-width: 1124px) {
+  #categoriesLandingpage > div,
+  #faqSection > div {
+    flex-direction: column;
+  }
+  #categoriesLandingpage > div > div.min-2 {
+    max-width: var(--col-5);
+  }
+}
+
+/* Global scrollbar hiding */
+.side-scroll,
+.side-scroll-grid,
+*[class*="scroll"] {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.side-scroll::-webkit-scrollbar,
+.side-scroll-grid::-webkit-scrollbar,
+*[class*="scroll"]::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  section {
+    padding: 2rem 1rem !important;
+  }
+
+  /* Exception for USP section to prevent icon cutoff */
+  section.usp-section {
+    padding: 2rem 0 !important;
+  }
+  .container {
+    width: 100%;
+    /* gap: 1em; */
+  }
+
+  .side-scroll {
+    margin: 0 -1em;
+    padding: 0em 1em;
+    width: 100vw;
+  }
+
+  .side-scroll-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em 1em;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .side-scroll.small {
+    max-width: 100vw;
+  }
+
+  .btn {
+    white-space: nowrap;
+  }
+
+  .content-card {
+    min-width: var(--col-2);
+  }
+
+  .categories-card {
+    min-width: var(--col-1-25);
+  }
+
+  /* Removed global flex-row column rule - handle per component instead */
+
+  .bg-image {
+    background: none !important;
+  }
+
+  .grid-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-container {
+    display: none;
+  }
+
+  .hidden-image {
+    display: block;
+    width: 100vw;
+    margin: -2rem -1rem 0;
+    border-radius: 0;
+  }
+
+  .banner-image {
+    order: -1;
+  }
+
+  .order-1-mobile {
+    order: -1;
+  }
+
+  .between {
+    /* align-items: flex-start; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-content: center;
+  }
+
+  /* padding fix of details on mobile */
+  .details {
+    padding: 0em 1em 1em 1em;
+  }
+
+  /* row reverse naar column op mobile */
+  .flex-row-reverse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #show {
+    display: none;
+  }
+
+  #hide {
+    display: flex;
+  }
+}

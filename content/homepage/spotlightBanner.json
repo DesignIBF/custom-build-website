@@ -1,0 +1,13 @@
+{
+  "title": "Farm-Fresh Wholesale Flowers Online",
+  "subtitle": "Fresh Flowers, Direct to You",
+  "description": "Since 2017, iBuyFlowers has helped US florists and event planners order wholesale flowers online from 100+ trusted farms.",
+  "buttonText": "Sign up for free and start shopping",
+  "buttonLink": "/shop",
+  "backgroundImage": "assets/images/homepage/placeholder_banner.png",
+  "backgroundPosition": "center center",
+  "imageAlt": "Beautiful flower arrangement background",
+  "useWhiteText": false,
+  "useGradientOverlay": false,
+  "gradientOverlay": "linear-gradient(135deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0) 100%)"
+}

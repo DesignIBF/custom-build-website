@@ -1,0 +1,42 @@
+{
+  "title": "Discover Our Farms",
+  "button": {
+    "text": "Explore All Farms",
+    "href": "/farms"
+  },
+  "banners": [
+    {
+      "description": "30+ Farms in",
+      "title": "Ecuador",
+      "image": "assets/images/homepage/ecuador.png",
+      "link": "/farms/california",
+      "buttonText": "Explore",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "center"
+    },
+    {
+      "description": "20+ Farms in",
+      "title": "Colombia",
+      "image": "assets/images/homepage/colombia.png",
+      "link": "/farms/oregon",
+      "buttonText": "Explore",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "center right"
+    },
+    {
+      "description": "15+ Farms in",
+      "title": "United States",
+      "image": "assets/images/homepage/us.png",
+      "link": "/farms/washington",
+      "buttonText": "Explore",
+      "buttonStyle": "quaternary",
+      "whiteText": true,
+      "showOverlay": true,
+      "objectPosition": "bottom"
+    }
+  ]
+}

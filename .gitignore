@@ -1,0 +1,65 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Unused components and legacy files
+unused_components/
+
+# Disabled or unused scripts
+scripts/banner.js
+scripts/heart.js
+scripts/uspDragScroll.js
+scripts/newsletter.js
+scripts/listSection.js
+scripts/contentManager.js.disabled
+
+# Empty or work-in-progress directories
+modules/in-progress/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories (if you add them later)
+node_modules/
+bower_components/
+
+# Build outputs (if you add build process later)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig

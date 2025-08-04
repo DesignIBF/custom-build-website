@@ -1,0 +1,28 @@
+{
+  "usps": [
+    {
+      "icon": "assets/images/homepage/Icons_Flower_Cream.png",
+      "title": "9,000+ varieties available",
+      "subtitle": "Broadest assortment in the U.S.",
+      "alt": "Varieties available icon"
+    },
+    {
+      "icon": "assets/images/homepage/Icons_Rose_Cream.png",
+      "title": "Directly from 100+ Farms",
+      "subtitle": "Freshest quality, no middlemen",
+      "alt": "Direct from farms icon"
+    },
+    {
+      "icon": "assets/images/homepage/Icons_Delivery_fast_Cream.png",
+      "title": "Free shipping on Full Boxes",
+      "subtitle": "Save money and deliver to anywhere in the U.S.",
+      "alt": "Free shipping icon"
+    },
+    {
+      "icon": "assets/images/homepage/Icons_Price_tag_Cream.png",
+      "title": "No charge up to a week before packing day",
+      "subtitle": "Zero risk upfront",
+      "alt": "No charge icon"
+    }
+  ]
+}

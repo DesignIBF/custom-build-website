@@ -1,0 +1,29 @@
+{
+  "blocks": [
+    {
+      "type": "container",
+      "class": "container flex-column gap-1",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "See How Farm-Direct Flowers Get to You",
+          "class": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "At iBuyFlowers, we deliver farm-fresh flowers straight from over 100 trusted growers to your business or event. This video shows how our 'farm-direct' model ensures your flowers arrive fresh, long-lasting, and ready to impress your customers.",
+          "class": "intro"
+        },
+        {
+          "type": "video",
+          "platform": "youtube",
+          "id": "_ybqRBBD7yg",
+          "title": "Our Flower Journey",
+          "width": "100%",
+          "height": "auto"
+        }
+      ]
+    }
+  ]
+}

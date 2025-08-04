@@ -1,0 +1,73 @@
+/* Banner Component Styles */
+
+.banner-card {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  aspect-ratio: 13/6;
+  border-radius: 8px;
+}
+
+.banner-card .banner-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.banner-card .banner-image img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.banner-card:hover .banner-image img {
+  transform: scale(1.1);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 10;
+  padding: 2em 1em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+}
+
+.banner-content h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+  max-height: 80px;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.banner-content p {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.banner-card:hover .btn {
+  color: var(--IBF-white);
+  background: var(--IBF-pink);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .banner-content {
+    padding: 1.5em 1em;
+  }
+
+  .banner-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .banner-content p {
+    font-size: 0.8rem;
+  }
+}
