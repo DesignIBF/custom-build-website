@@ -2,7 +2,7 @@
   "title": "Explore By State",
   "button": {
     "text": "Explore All States",
-    "href": "/states"
+    "href": "states.html"
   },
   "cards": [
     {
@@ -11,7 +11,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/tx.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Fresh flowers in a vase"
     },
     {
@@ -20,7 +20,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/tn.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Spring wedding bouquet"
     },
     {
@@ -29,7 +29,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/mi.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Elegant table centerpiece"
     },
     {
@@ -38,7 +38,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/or.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Seasonal flower arrangement"
     },
     {
@@ -47,7 +47,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/sc.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Seasonal flower arrangement"
     },
     {
@@ -56,7 +56,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/ga.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Seasonal flower arrangement"
     },
     {
@@ -65,7 +65,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/wa.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Seasonal flower arrangement"
     },
     {
@@ -74,7 +74,7 @@
       "tag": "State",
       "date": "",
       "image": "assets/images/states/wi.png",
-      "link": "/states",
+      "link": "states.html",
       "imageAlt": "Seasonal flower arrangement"
     }
   ]

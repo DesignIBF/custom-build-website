@@ -6,13 +6,13 @@
   ],
   "logo": "assets/images/logo3.svg",
   "menuItems": [
-    { "text": "Our products", "link": "/products" },
-    { "text": "States", "link": "/states" },
-    { "text": "Farms", "link": "/farms" },
-    { "text": "Blogs", "link": "/blogs" },
-    { "text": "Education", "link": "/education", "hasDropdown": true },
-    { "text": "About us", "link": "/about" },
-    { "text": "Contact us", "link": "/contact" }
+    { "text": "Our products", "link": "products.html" },
+    { "text": "States", "link": "states.html" },
+    { "text": "Farms", "link": "farms.html" },
+    { "text": "Blogs", "link": "blogs.html" },
+    { "text": "Education", "link": "education.html", "hasDropdown": true },
+    { "text": "About us", "link": "about.html" },
+    { "text": "Contact us", "link": "contact.html" }
   ],
   "searchPlaceholder": "Search bar 🔍",
   "signInText": "Sign in"

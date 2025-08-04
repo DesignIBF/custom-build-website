@@ -25,7 +25,7 @@
           "type": "button",
           "text": "About iBuyFlowers",
           "class": "btn btn-tertiary",
-          "href": "/about",
+          "href": "about.html",
           "visible": true
         }
       ]
