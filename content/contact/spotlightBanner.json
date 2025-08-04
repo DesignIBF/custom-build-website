@@ -3,7 +3,7 @@
   "subtitle": "Under Construction",
   "description": "We're working hard to bring you an amazing contact us page. Please check back soon!",
   "buttonText": "Back to Homepage",
-  "buttonLink": "homepage.html",
+  "buttonLink": "/",
   "backgroundImage": "assets/images/Under_construction_banner.png",
   "backgroundPosition": "center center",
   "imageAlt": "Under construction background",

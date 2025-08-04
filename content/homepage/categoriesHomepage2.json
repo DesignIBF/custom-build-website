@@ -2,7 +2,7 @@
   "title": "Shop by State",
   "button": {
     "text": "View All States",
-    "link": "/states.html"
+    "link": "/states"
   },
   "categories": [
     {

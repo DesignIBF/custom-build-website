@@ -2,7 +2,7 @@
   "title": "Fresh Reads for Flower Lovers",
   "button": {
     "text": "Explore All Blogs",
-    "href": "/blog"
+    "href": "/blogs"
   },
   "cards": [
     {
@@ -11,7 +11,7 @@
       "tag": "Blog",
       "date": "",
       "image": "assets/images/homepage/education_4.png",
-      "link": "/blog/flower-care-tips",
+      "link": "/education",
       "imageAlt": "Fresh flowers in a vase"
     },
     {
@@ -20,7 +20,7 @@
       "tag": "Blog",
       "date": "",
       "image": "assets/images/homepage/education_1.png",
-      "link": "/blog/spring-wedding-trends",
+      "link": "/education",
       "imageAlt": "Spring wedding bouquet"
     },
     {
@@ -29,7 +29,7 @@
       "tag": "Blog",
       "date": "",
       "image": "assets/images/homepage/education_2.png",
-      "link": "/blog/centerpiece-guide",
+      "link": "/education",
       "imageAlt": "Elegant table centerpiece"
     },
     {
@@ -38,7 +38,7 @@
       "tag": "Blog",
       "date": "",
       "image": "assets/images/homepage/education_3.png",
-      "link": "/blog/seasonal-flowers",
+      "link": "/education",
       "imageAlt": "Seasonal flower arrangement"
     }
   ]

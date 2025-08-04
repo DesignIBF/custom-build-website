@@ -3,7 +3,7 @@
   "backgroundGradient": "",
   "button": {
     "text": "View All Categories",
-    "link": "/categories.html"
+    "link": "/products"
   },
   "categories": [
     {
