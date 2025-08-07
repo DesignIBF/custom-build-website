@@ -26,7 +26,7 @@ async function loadPageContent(pageName) {
     "categoriesHomepage",
     "articleSection",
     "bannersSection2",
-    "faqSection",
+    // "faqSection", // Handled by its own component
     "contentCardsSection",
     "farmBannersSection",
     "categoriesHomepage2",
@@ -60,7 +60,7 @@ async function loadModuleContent(pageName, moduleId) {
     if (
       moduleId === "nav" ||
       moduleId === "uspSection" ||
-      moduleId === "faqSection" ||
+      // moduleId === "faqSection" || // Handled by its own component
       moduleId === "logosSection" ||
       moduleId === "elfsightSection"
     ) {
@@ -157,9 +157,9 @@ function populateModule(moduleId, content) {
       case "announcementBannersSection":
         populateBannersSection2(element, content);
         break;
-      case "faqSection":
-        populateFaqSection(element, content);
-        break;
+      // case "faqSection":
+      //   populateFaqSection(element, content);
+      //   break;
       case "contentCardsSection":
         populateContentCardsSection(element, content);
         break;
@@ -551,7 +551,7 @@ async function createContentCard(cardData) {
 
 async function createFaqItem(faqData) {
   try {
-    const response = await fetch("components/faq.html");
+    const response = await fetch("modules/components/faq/faq.html");
     const template = await response.text();
 
     const tempDiv = document.createElement("div");
@@ -1046,7 +1046,7 @@ async function populateContentCardsSection(element, content) {
 
       // Create a row container
       const rowContainer = document.createElement("div");
-      rowContainer.className = "content-cards-row";
+      rowContainer.className = "content-cards-row  side-scroll";
 
       // Add cards to this row
       for (const card of rowCards) {

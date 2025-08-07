@@ -126,8 +126,8 @@
   }
 
   .banners-4 .banner-card {
-    min-width: var(--col-2);
-    max-width: var(--col-2);
+    min-width: var(--col-3);
+    max-width: var(--col-3);
   }
 }
 
