@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block access to development and config files
+Disallow: /.git/
+Disallow: /.kiro/
+Disallow: /.vscode/
+Disallow: /unused_components/
+Disallow: *.DS_Store
+
+# Sitemap location
+Sitemap: https://designibf.github.io/custom-build-website/sitemap.xml
