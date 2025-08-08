@@ -6,8 +6,12 @@ function loadComponent(elementId, filePath) {
     })
     .then((html) => {
       const container = document.getElementById(elementId);
-      container.innerHTML = html;
-      loadNestedComponents(container); // Load nested components
+      if (container) {
+        container.innerHTML = html;
+        loadNestedComponents(container); // Load nested components
+      } else {
+        console.warn(`Container with id "${elementId}" not found on this page`);
+      }
     })
     .catch((error) => console.error(`Error loading ${filePath}:`, error));
 }
